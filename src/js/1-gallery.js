@@ -85,14 +85,7 @@ images.forEach((image)=> {
 
 })
 
-galleryElem.addEventListener('click', (event) => {
-    event.preventDefault();
 
-if(event.target.nodeName !== 'IMG') {
-return
-        
-} 
-})
 
     //const largeImg = event.target.dataset.source;
 
